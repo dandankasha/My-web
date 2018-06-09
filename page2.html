@@ -9,9 +9,27 @@
     <link href="lib/bootstrap/css/page2.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".nav1" data-offset="100">
+    <div class="navbar nav1">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <li class="active">
+                    <a href="#nav">松鼠导航</a>
+                </li>
+                <li>
+                    <a href="#jiaru">加入我们</a>
+                </li>
+                <li>
+                    <a href="#meiti">媒体报道</a>
+                </li>
+                <li>
+                    <a href="#xiaozhan">资源小站</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <header>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" id="nav">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
@@ -84,14 +102,14 @@
         </nav>
     </header>
     <section>
-            <div class="container-fluid">
-                    <div class="row">
-                          
-                                <img width="100%" src="images/boy.png">
-                        
-                        </div>
+        <div class="container-fluid">
+            <div class="row">
+
+                <img width="100%" src="images/boy.png">
+
             </div>
-        <div class="container con1">
+        </div>
+        <div class="container con1" id="jiaru">
             <div class="row">
                 <div class="col-xs-6 col-sm-6 div0 block1">
                     <div class="div1">
@@ -182,7 +200,7 @@
                 </div>
             </div>
         </div>
-        <div class="container  con1">
+        <div class="container  con1" id="meiti">
             <div class="row">
                 <div class="col-xs-6 col-sm-6 dis2 div0">
                     <div class="div1">
@@ -267,7 +285,7 @@
                 </div>
             </div>
         </div>
-        <div class="container con1 con2">
+        <div class="container con1 con2" id="xiaozhan">
             <div class="row">
 
                 <div class="col-xs-6 col-sm-6 div0 block3">
@@ -315,20 +333,20 @@
                                 <li>
                                     <a>02. 松鼠表情包</a>
                                 </li>
-                               
+
                             </ul>
                             <ul class="ul1">
-                                    <li class="li1">
-                                        <a style="font-size: 1.3em; font-weight: 600;  color: black;">
-                                            <span class="span3">Chapter Three.</span>版权引用
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a>01. 松鼠商标</a>
-                                    </li>
-                              
-                                   
-                                </ul>
+                                <li class="li1">
+                                    <a style="font-size: 1.3em; font-weight: 600;  color: black;">
+                                        <span class="span3">Chapter Three.</span>版权引用
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>01. 松鼠商标</a>
+                                </li>
+
+
+                            </ul>
 
 
                         </div>
@@ -337,7 +355,7 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
 </body>
 <footer id="footer">

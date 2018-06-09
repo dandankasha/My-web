@@ -9,9 +9,27 @@
     <link href="lib/bootstrap/css/page3.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".nav1" data-offset="100">
+    <div class="navbar nav1">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <li class="active">
+                    <a href="#nav">松鼠导航</a>
+                </li>
+                <li>
+                    <a href="#zhaopin">社会招聘</a>
+                </li>
+                <li>
+                    <a href="#xincou">薪酬福利</a>
+                </li>
+                <li>
+                    <a href="#zhiduoshao">松鼠知多少</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <header>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" id="nav">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
@@ -100,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="container-fluid" id="zhaopin">
             <div class="row">
                 <div class="col-xs-12">
                     <h1 class="h">社会招聘</h1>
@@ -212,27 +230,27 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-              
-                    <div class="col-xs-12">
-                        <h1 class="h">薪酬福利</h1>
-    
-                    </div>
-                    <div class="col-xs-12">
-                        <img width="100%" src="images/97d4522f-0836-4bcc-b488-e16b7d4386cd.png">
-                        <img width="100%" src="images/f5292bef-607d-49d0-869a-03122ca7e02d.png">
-                        <img width="100%" src="images/2088fdf9-4b33-4ce3-b876-61612fb7bca4.png">
-                    </div>
-    
-               
-        </div>
-        <div class="container div5">
+        <div class="container" id="xincou">
+
             <div class="col-xs-12">
-                    <h1 class="h">松鼠知多少</h1>
+                <h1 class="h">薪酬福利</h1>
+
             </div>
             <div class="col-xs-12">
-                    <img width="100%" src="images/1af51583-fecd-4bc5-819d-a69deb326496.png">
-                    <img width="100%" src="images/58fa9c3b-b78b-473d-b6a8-8dc7e33ee04b.png">
+                <img width="100%" src="images/97d4522f-0836-4bcc-b488-e16b7d4386cd.png">
+                <img width="100%" src="images/f5292bef-607d-49d0-869a-03122ca7e02d.png">
+                <img width="100%" src="images/2088fdf9-4b33-4ce3-b876-61612fb7bca4.png">
+            </div>
+
+
+        </div>
+        <div class="container div5" id="zhiduoshao">
+            <div class="col-xs-12">
+                <h1 class="h">松鼠知多少</h1>
+            </div>
+            <div class="col-xs-12">
+                <img width="100%" src="images/1af51583-fecd-4bc5-819d-a69deb326496.png">
+                <img width="100%" src="images/58fa9c3b-b78b-473d-b6a8-8dc7e33ee04b.png">
             </div>
         </div>
     </section>

@@ -168,3 +168,30 @@ a:hover{
 .con2{
     margin-bottom: 5%;
 }
+.nav1{
+    position: fixed;
+    left: 0;
+    top: 30%;
+    z-index: 255;
+    width: 4%;
+}
+.nav1 li{
+    padding-top: 4%;
+    font-size: 90%;
+    text-align: center;
+    border: 1px solid white;
+  
+}
+.nav1 .nav{
+    border: 1px solid white;
+    border-radius: 5%;
+}
+.nav1 li a{
+    padding: 30% 0;
+    font-weight: 600;
+    color: rgb(243, 69, 150);
+}
+.active{
+    background: #c2c2c2a4;
+}
+ 
