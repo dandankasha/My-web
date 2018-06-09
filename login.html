@@ -3,15 +3,71 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>三只松鼠</title>
+    <title>登录</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="lib/bootstrap/css/login.css" rel="stylesheet">
 </head>
-<body>
 
+<body>
+    <div class="div4">
+        <img src="images/logo.png">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+                <div class="div1">
+                    <h2>登录你的账户</h2>
+                    <form>
+                        <ul>
+                            <li>
+                                <span>账号/邮箱:</span>
+                                <div class="div3">
+                                    <input class="input" type="text" placeholder="请输入账号/邮箱">
+                                </div>
+
+                            </li>
+                            <li>
+                                <span>密码：</span>
+                                <div class="div3">
+                                    <input class="input" type="password" placeholder="请输入密码">
+                                </div>
+
+                            </li>
+                            <li>
+                                <p>没有账号？
+                                    <span>
+                                        <a href="register.html">创建一个！</a>
+                                    </span>
+                                </p>
+                            </li>
+                            <li class="login">
+                                <input class="btn1" type="submit" value="登录">
+                            </li>
+                            <li>
+                                <hr/>
+                            </li>
+                            <li>
+                                <p class="p1">通过其他方式登录</p>
+                                <div class="div2">
+                                    <a>
+                                        <img src="images/l_1_h.png">
+                                    </a>
+                                    <a>
+                                        <img src="images/l_4_h.png">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 <script src="lib/jquery/jquery-1.11.0.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-<script src="lib/bootstrap/js/index.js"></script>
+<script src="lib/bootstrap/js/login.js"></script>
+
 </html>

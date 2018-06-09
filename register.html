@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/bootstrap/css/register.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="div4">
+        <img src="images/logo.png">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-4">
+                <div class="div1">
+                    <h2>创建你的账户</h2>
+                    <form id="registerForm" action="" method="post" name="myform">
+                            <dl>
+                                <dt>通行证用户名：</dt>
+                                <dd><input type="text" id="userName" class="inputs userWidth"/> @163.com</dd>
+                                <dd><div id="userNameId"></div></dd>
+                            </dl>
+                            <dl>
+                                <dt>登录密码：</dt>
+                                <dd><input type="password" id="pwd" class="inputs"/></dd>
+                                <dd><div id="pwdId"></div></dd>
+                            </dl>
+                            <dl>
+                                <dt>重复登录密码：</dt>
+                                <dd><input type="password" id="repwd" class="inputs"/></dd>
+                                <dd><div id="repwdId"></div></dd>
+                            </dl>
+                            <dl>
+                                <dt>性别：</dt>
+                                <dd><input name="sex" type="radio" value="" checked="checked"/>男 <input name="sex" type="radio" value="" />女 </dd>
+                            </dl>
+                            <dl>
+                                <dt>真实姓名：</dt>
+                                <dd><input type="text" id="realName" class="inputs" /></dd>
+                            </dl>
+                            <dl>
+                                <dt>昵称：</dt>
+                                <dd><input type="text" id="nickName" class="inputs"/></dd>
+                                <dd><div id="nickNameId"></div></dd>
+                            </dl>
+                            <dl>
+                                <dt>关联手机号：</dt>
+                                <dd><input type="text" id="tel" class="inputs"/></dd>
+                                <dd><div id="telId"></div></dd>
+                            </dl>
+                            <dl>
+                                <dt>保密邮箱：</dt>
+                                <dd><input type="email" id="email" class="inputs"/></dd>
+                                <dd><div id="emailId"></div></dd>
+                            </dl>
+                            <dl>
+                                <dt></dt>
+                                <dd><input name=" " type="image" src="images/button.gif"/></dd>
+                            </dl>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="lib/jquery/jquery-1.11.0.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/bootstrap/js/register.js"></script>
+
+</html>
