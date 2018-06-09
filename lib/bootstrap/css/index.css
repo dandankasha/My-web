@@ -182,7 +182,7 @@ div.item img{
 }
 .nav1{
     position: fixed;
-    left: 0;
+    left: 3%;
     top: 30%;
     z-index: 255;
     width: 4%;
