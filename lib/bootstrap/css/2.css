@@ -1,0 +1,51 @@
+footer{
+    background: rgba(20, 19, 19, 0.521);
+    padding: 20px;
+    min-height: 100px;
+}
+li{
+   list-style: none;
+}
+a{
+    text-decoration: none;
+}
+table td,table th{
+    border-top: none;
+    text-align: center;
+}
+table thead th{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+table a{
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #0a080873;
+}
+table a:hover{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.mytab{
+    text-align: center;
+}
+ul{
+    padding:0 0;
+}
+.img-box{
+    padding-bottom: 9%;
+}
+.foot{
+    margin-left: 10%;
+}
+.span1{
+    font-size: 1.2em;
+    color: white;
+    font-weight: 600;
+}
+.span2{
+    font-size: 1.2em;
+    color: red;
+    font-weight: 600;
+}
