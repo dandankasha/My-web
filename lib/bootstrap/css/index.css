@@ -1,5 +1,6 @@
 body{
     background:url(../../../images/TB2rbX0cNWYBuNjy1zkXXXGGpXa-880734502.jpg) no-repeat fixed center;
+    position: relative;
 }
 li{
     list-style: none;
@@ -143,9 +144,6 @@ div.item img{
      color: #919191;
      line-height: 1.8em;
  }
- .block1 a:hover,.block2 a:hover{
-     cursor: pointer;
- }
  .dis4 ul li{
      float: left;
      width: 50%;
@@ -167,6 +165,7 @@ div.item img{
  }
  .block1 a:hover,.block2 a:hover,.dis5 a:hover{
      color: #eeaa17;
+     cursor: pointer;
  }
  .div5{
      margin: 10% 0;
@@ -180,6 +179,32 @@ div.item img{
     margin: 10% 0;
     color: #919191;
     font-size: 1.2em;
+}
+.nav1{
+    position: fixed;
+    left: 0;
+    top: 30%;
+    z-index: 255;
+    width: 4%;
+}
+.nav1 li{
+    padding-top: 4%;
+    font-size: 90%;
+    text-align: center;
+    border: 1px solid white;
+  
+}
+.nav1 .nav{
+    border: 1px solid white;
+    border-radius: 5%;
+}
+.nav1 li a{
+    padding: 30% 0;
+    font-weight: 600;
+    color: rgb(243, 69, 150);
+}
+.active{
+    background: #c2c2c2a4;
 }
  
  

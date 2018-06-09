@@ -9,9 +9,19 @@
     <link href="lib/bootstrap/css/index.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".nav1" data-offset="100">
+        <div class="navbar nav1">
+                <div class="navbar-inner">
+                  <ul class="nav">
+                    <li class="active"><a href="#nav">松鼠导航</a></li>
+                    <li><a href="#wenhua">品牌文化</a></li>
+                    <li><a href="#fanwei">经营范围</a></li>
+                    <li><a href="#hezuo">影视合作</a></li>
+                  </ul>
+                </div>
+              </div>
     <header>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" id="nav">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
@@ -121,7 +131,7 @@
             </a>
 
         </div>
-        <div class="container con1">
+        <div class="container con1" id="wenhua">
             <div class="row">
                 <div class="col-xs-6 col-sm-6 div0 block1">
                     <div class="div1">
@@ -246,7 +256,7 @@
                 </div>
             </div>
         </div>
-        <div class="container con1">
+        <div class="container con1" id="fanwei">
             <div class="row">
 
                 <div class="col-xs-6 col-sm-6 dis4 div0">
@@ -404,7 +414,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid div0 div5">
+        <div class="container-fluid div0 div5" id="hezuo">
             <div class="row">
                 <div class="col-xs-6">
                     <img width="80%" src="images/zhuren.png">
