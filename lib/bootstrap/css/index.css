@@ -185,7 +185,7 @@ div.item img{
     left: 3%;
     top: 30%;
     z-index: 255;
-    width: 4%;
+    width: 5%;
 }
 .nav1 li{
     padding-top: 4%;
@@ -196,7 +196,7 @@ div.item img{
 }
 .nav1 .nav{
     border: 1px solid white;
-    border-radius: 5%;
+    border-radius: 4px;
 }
 .nav1 li a{
     padding: 30% 0;
