@@ -189,3 +189,23 @@ ul{
 .active{
     background: #c2c2c2a4;
 }
+@media (max-width: 480px) { 
+    .nav1{
+        width: 10%;
+    }
+    .nav1 li a{
+        padding: 30% 0;
+        font-weight: 600;
+        color: rgb(68, 219, 38);
+    }
+   .div1{
+        width: 90%;
+   }
+   .div2 .input-medium.search-query{
+         height: 2.5em;
+   }
+   .div1 .btn{
+       font-size: 0.9em;
+       height: 2.8em;
+   }
+ } 
